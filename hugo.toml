@@ -1,0 +1,16 @@
+theme = 'hugo-theme-relearn'
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'dna site'
+
+[params]
+  disableLandingPageButton = true
+  alwaysopen = true
+
+ordersectionsby = 'linktitle'
+disableNextPrev = false
+
+[[params.themeVariant]]
+  auto = ['zen-light', 'zen-dark']
+  identifier = 'zen-auto'
+  name = 'Zen Light/Dark'
