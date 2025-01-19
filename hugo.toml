@@ -2,6 +2,7 @@ theme = 'hugo-theme-relearn'
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'dna site'
+publishDir = "docs"
 
 [params]
   disableLandingPageButton = true
